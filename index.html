@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="icon" type="image/x-icon" href="./src/img/sudoku.ico">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand mx-5" href="https://mcitomi.hu/sudoku/">
+            <img src="./src/img/sudoku.ico" width="30" height="30" class="d-inline-block align-top" alt="">
+            Sudoku
+        </a>
+    </nav>
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div id="gamebar" class="col-auto"></div>
+        </div>
+    </div>
+
+    <div class="fixed-bottom bg-dark controls">
+        <button onclick="loadExample()" class="btn btn-primary" id="loadbtn">Példa betöltése</button>  
+        <button onclick="checkProcess()" class="btn btn-success" id="checkbtn" hidden>Ellenőrzés</button>  
+        <br>
+        <small style="color: white;">Berdó Tamás &copy; 2024</small>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./src/script.js"></script>
+</body>
+</html>

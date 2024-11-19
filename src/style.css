@@ -1,0 +1,31 @@
+td {
+    width: 41px;
+    height: 41px;
+    cursor: pointer;
+    user-select: none;
+    border: solid black 1px;
+    text-align: center;
+    padding: 2px !important;
+    vertical-align: middle;
+}
+
+td:hover{
+    background-color: rgb(233, 232, 232);
+}
+
+#gamebar {
+    margin-top: 15px;
+}
+
+body {
+    background-image: url('./img/pattern.webp');
+}
+
+.controls {
+    padding: 10px;
+    text-align: center;
+}
+
+#loadbtn {
+    margin-right: 5px;
+}
